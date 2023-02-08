@@ -12,11 +12,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 .title {
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
   font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2rem;
 }
 .main-card {
   display: flex;
@@ -26,9 +29,10 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   opacity: 0.8;
+  font-weight: 400;
 }
 .card {
-  width: 20rem;
+  width: 19rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -37,7 +41,7 @@ body {
 .card-top-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   line-height: 1.5rem;
 }
 img {
@@ -47,12 +51,13 @@ img {
 
 .btn {
   background-color: hsl(0, 0%, 95%);
-  padding: 1rem 3rem;
+  padding: 1rem 2.2rem;
   border-radius: 2rem;
   border: 1px solid hsl(0, 0%, 95%);
   color: hsl(31, 77%, 52%);
   text-transform: capitalize;
-  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 .card-left {

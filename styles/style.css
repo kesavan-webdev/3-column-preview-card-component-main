@@ -17,19 +17,22 @@ body {
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
   font-family: "Big Shoulders Display", cursive;
-  /* font-family: 'Lexend Deca', sans-serif; */
+}
+.main-card {
+  display: flex;
+  flex-direction: row;
 }
 .card-top-content {
-  color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
+  opacity: 0.8;
 }
-.card-left {
-  background-color: hsl(31, 77%, 52%);
+.card {
   width: 20rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
 }
 .card-top-container {
   display: flex;
@@ -50,4 +53,29 @@ img {
   color: hsl(31, 77%, 52%);
   text-transform: capitalize;
   font-size: 15px;
+}
+
+.card-left {
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.card-left .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-center {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-center .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-right {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card-right .btn {
+  color: hsl(179, 100%, 13%);
 }
